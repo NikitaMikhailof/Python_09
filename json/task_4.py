@@ -1,6 +1,7 @@
 import json 
 import csv 
-import os
+
+
 
 def read_json_write_csv(file_name_read, file_name_write):
     with(
@@ -16,8 +17,7 @@ def read_json_write_csv(file_name_read, file_name_write):
         
     
 if __name__ == '__main__':
-    os.chdir(r"D:\Student\JSON\Python_09\json")
-    read_json_write_csv('main.json', 'main.csv')
+    read_json_write_csv('users.json', 'main.csv')
 
     
 
